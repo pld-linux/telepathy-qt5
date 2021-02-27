@@ -131,7 +131,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_pkgconfigdir}/TelepathyQt5.pc
 %{_pkgconfigdir}/TelepathyQt5Farstream.pc
 %{_pkgconfigdir}/TelepathyQt5Service.pc
-%endif
 
 %files apidocs
 %defattr(644,root,root,755)
