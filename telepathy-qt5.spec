@@ -8,7 +8,7 @@ Summary:	Library for Qt5-based Telepathy clients
 Summary(pl.UTF-8):	Biblioteka dla klientów Telepathy opartych na Qt5
 Name:		telepathy-qt5
 Version:	0.9.8
-Release:	1
+Release:	2
 License:	LGPL v2.1+
 Group:		Libraries
 Source0:	https://telepathy.freedesktop.org/releases/telepathy-qt/%{orgname}-%{version}.tar.gz
