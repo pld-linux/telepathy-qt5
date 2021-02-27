@@ -35,6 +35,7 @@ BuildRequires:	python3-pygobject3
 BuildRequires:	qt5-assistant >= %{qt5_ver}
 BuildRequires:	qt5-build >= %{qt5_ver}
 BuildRequires:	qt5-qmake >= %{qt5_ver}
+BuildRequires:	rpm-build >= 4.6
 BuildRequires:	rpmbuild(macros) >= 1.293
 BuildRequires:	telepathy-farstream-devel >= 0.6.0
 BuildRequires:	telepathy-glib-devel >= 0.18.0
@@ -73,9 +74,7 @@ Pliki nagłówkowe biblioteki telepathy-qt5.
 Summary:	API documentation for telepathy-qt4 and telepathy-qt5 libraries
 Summary(pl.UTF-8):	Dokumentacja API bibliotek telepathy-qt5 i telepathy-qt5
 Group:		Documentation
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description apidocs
 API documentation for telepathy-qt4 and telepathy-qt5 libraries.
