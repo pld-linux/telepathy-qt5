@@ -84,7 +84,7 @@ Dokumentacja API bibliotek telepathy-qt5 i telepathy-qt5.
 
 %prep
 %setup -q -n %{orgname}-%{version}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 install -d build-qt5
